@@ -1,0 +1,53 @@
+:root{
+    --grisclaro: hsl(212, 45%, 89%);
+    --grisbase: hsl(220, 15%, 55%);
+    --azul: hsl(218, 44%, 22%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--grisclaro);
+}
+
+.card{
+    background-color: white;
+    width: 300px;
+    height: 460px;
+    padding: 16px;
+    margin: 60px auto;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card-head{
+    background-image: url(/images/image-qr-code.png);
+    background-position: center; 
+    background-size: cover;
+    width: 100%;
+    height: 290px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+h1{
+    color: var(--azul);
+    font-size: 23px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 14px;
+}
+p{
+    font-size: 15px;
+    color: var(--grisbase);
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+a{
+    color: var(--azul);
+    font-weight: 700;
+}
