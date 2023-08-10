@@ -25,7 +25,7 @@ body{
 }
 
 .card-head{
-    background-image: url(/images/image-qr-code.png);
+    background-image: url(/QR/images/image-qr-code.png);
     background-position: center; 
     background-size: cover;
     width: 100%;
