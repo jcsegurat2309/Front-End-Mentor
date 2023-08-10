@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+:root{
+--bg-Lightred: hsl(0, 100%, 67%, 0.1);
+--Lightred: hsl(0, 100%, 67%);
+--Orangeyyellow: hsl(39, 100%, 56%);
+--bg-Orangeyyellow: hsl(39, 100%, 56%,0.1);
+--Greenteal: hsl(166, 100%, 37%);
+--bg-Greenteal: hsl(166, 100%, 37%,0.1);
+--Cobaltblue: hsl(234, 85%, 45%);
+--bg-Cobaltblue: hsl(234, 85%, 45%,0.1);
+/* ## Gradients */
+--Light-slate-blue: hsl(252, 100%, 67%);
+--Light-royal-blue: hsl(241, 81%, 54%);
+
+--Violet-blue: hsla(256, 72%, 46%, 1);
+--Persian-blue: hsla(241, 72%, 46%, 0);
+
+
+--Pale-blue: hsl(221, 100%, 96%);
+--Light-lavender: hsl(241, 100%, 89%);
+--Dark-gray-blue: hsl(224, 30%, 27%);
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* Generales */
+.texto-lavender{
+    color: var(--Light-lavender);
+    text-align: center;
+}
+.texto-blanco{
+    color: white;
+}
+.font-bold{
+    font-weight: bold;
+}
+.texto-rojo{
+    color: var(--Lightred);
+}
+.text-amarillo{
+    color: var(--Orangeyyellow);
+}
+.text-green{
+    color: var(--Greenteal);
+}
+.text-blue{
+    color: var(--Cobaltblue);
+}
+.total{
+    margin-left: 10px;
+    color: var(--Dark-gray-blue);
+    font-weight: bold;
+    opacity: 0.7;
+}
+/*  */
+.box{
+    -webkit-box-shadow: -1px 0px 13px 2px rgba(0,0,0,0.39);
+    -moz-box-shadow: -1px 0px 13px 2px rgba(0,0,0,0.39);
+    box-shadow: -1px 0px 13px 2px rgba(0,0,0,0.39);
+    border-radius: 20px;
+}
+@media (min-width: 720px){
+     .box{
+        margin: 0 auto;
+        max-width: 920px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+     }
+}
+.card-resultado{
+    border-radius:20px;
+    padding: 20px;
+    background: linear-gradient(to bottom,var(--Light-slate-blue), var(--Light-royal-blue));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+@media (min-width: 720px){
+    .card-resultado{
+        width: 424px;
+    }
+}
+.circulo{
+    width: 244px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    background: linear-gradient(to bottom,var(--Violet-blue), var(--Persian-blue));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resultado{
+    font-size: 60px;
+    margin: 0;
+}
+@media (min-width: 720px){
+    .sumatoria{
+        width: 424px;
+    }
+}
+
+.sumatoria{
+    padding: 20px;
+}
+.area{
+    padding: 16px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.tema{
+    display: flex;
+    align-items: center;
+}
+.icono{
+    margin-right: 15px;
+}
+.bg-red{
+    background-color: var(--bg-Lightred);
+}
+.bg-yellow{
+    background-color: var(--bg-Orangeyyellow);
+}
+.bg-blue{
+    background-color: var(--bg-Cobaltblue);
+}
+.bg-green{
+    background-color: var(--bg-Greenteal);
+}
